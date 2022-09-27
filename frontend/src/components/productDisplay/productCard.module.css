@@ -1,0 +1,59 @@
+.productCard{
+    border: solid 1px;
+    max-width: 300px;
+    min-width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.productCardImg{
+    margin:5px;
+}
+
+.productCardImg img{
+    width: 100%;
+}
+.productCardBody h3{
+    color: black;
+    margin: 5px;
+}
+.productCardBody span{
+    color: black;
+    margin: 5px;
+}
+.productCardStockSection{
+    display: inline-flex;
+    margin: 5px;
+    align-items: center;
+    justify-content:center;
+    
+}
+.productCardQuntitySection{
+    display: inline-flex;
+    width: 50%;
+    margin-left: 5px;
+}
+.productCardQuntitySection input{
+    width: 40%;
+    text-align: center;
+}
+.productCardQuntitySection button{
+    width: 30%;
+}
+.productCardSCartSection{
+    display: inline-flex;
+    margin: 5px;
+    align-items: center;
+    justify-content:center
+}
+.productCardActionSection{
+    display: inline-flex;
+    width: 100%;
+    margin: 5px;
+    align-items: center;
+    justify-content:center;
+}
+.productCardActionSection button{
+    margin: 5px;
+    width: 80px;
+}
